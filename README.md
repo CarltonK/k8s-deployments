@@ -25,3 +25,5 @@ kubectl apply -f secrets.yaml
 <!-- Optional -> Create a persistent volume -->
 <!-- NB -> Disk must be in the same zone and VMs created -->
 gcloud compute disks create --size=500GB --zone=ZONE_HERE DISK_NAME_HERE
+
+<!-- NB -> DON'T FORGET TO DELETE RESOURCES -->
